@@ -2,7 +2,7 @@ import nltk
 
 #1. Sentence tokenization
 
-text = "Backgammon is one of the oldest known board games. Its history can be traced back nearly 5,000 years to archeological discoveries in the Middle East. It is a two player game where each player has fifteen checkers which move between twenty-four points according to the roll of two dice."
+text = "Navigating Exchange-Traded Fund (ETF) capital markets can appear complicated without the right resources. From understanding ETF liquidity and transaction costs to general education and guidance, Goldman Sachs Asset Management (GSAM) is committed to helping our clients navigate the capital markets infrastructure within ETF trading and execution. This quick reference guide walks through key components of ETF capital markets and relevant trading practices."
 sentences = nltk.sent_tokenize(text)
 for sentence in sentences:
     print(sentence)
@@ -36,7 +36,7 @@ from nltk.corpus import stopwords
 print(stopwords.words("english"))
 
 stop_words = set(stopwords.words("english"))
-sentence = "Backgammon is one of the oldest known board games."
+sentence = "Navigating Exchange-Traded Fund  capital markets can appear complicated without the right resources."
 
 words = nltk.word_tokenize(sentence)
 without_stop_words = []
